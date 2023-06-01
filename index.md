@@ -2,6 +2,7 @@
 
 ### Original Post:
 **How do I fix this bug?**
+
 Hi! I have encountered this bug while writing the grading script during week 6's lab (https://ucsd-cse15l-s23.github.io/week/week6/#grading-script). My bash script is supposed to report the grade based on the JUnit output, but it fails. Here's my code and output:
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
