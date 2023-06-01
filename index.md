@@ -7,8 +7,7 @@ Hi! I have encountered this bug while writing the grading script during week 6's
 
 Here's the directory structure:
 
-<img width="985" alt="截屏2023-05-31 21 01 23" src="https://github.com/kevinnie2003/cse15l_lab5/assets/122497019/f7db3eb0-6be9-44cf-93e7-79c00dfdce4a">
-
+<img width="987" alt="截屏2023-05-31 21 09 25" src="https://github.com/kevinnie2003/cse15l_lab5/assets/122497019/558bb307-89a5-4f9e-94a7-0f47d0f66531">
 
 Here's my code and output:
 
@@ -73,7 +72,8 @@ public class TestListExamples {
 }
 ```
 Terminal Output:
-<img width="907" alt="截屏2023-05-31 20 43 02" src="https://github.com/kevinnie2003/cse15l_lab5/assets/122497019/eb9aa185-0273-4ee6-bda8-95196d1b8cae">
+
+<img width="902" alt="截屏2023-05-31 21 09 39" src="https://github.com/kevinnie2003/cse15l_lab5/assets/122497019/88a85280-8547-4d88-9cb8-5c2e03ca0a1c">
 
 Why does it say "error: invalid flag"? Thank you for answering!
 
@@ -85,7 +85,7 @@ The -d option in javac is used to specify where to place generated class files. 
 ### Response from student:
 Thank you so much! I have tried to remove '-d' from line 23, now it works fine. Here's the output:
 
-<img width="897" alt="截屏2023-05-31 20 52 23" src="https://github.com/kevinnie2003/cse15l_lab5/assets/122497019/234e4bf3-8ab0-42e0-95ea-d6cab328e8b7">
+<img width="924" alt="截屏2023-05-31 21 10 01" src="https://github.com/kevinnie2003/cse15l_lab5/assets/122497019/c9443c50-d143-4356-b8fe-954771419c9b">
 
 The bug is that I does not specify after the "-d" flag while using the javac command. To fix this bug, I should either remove the "-d" flag entirely, or provide a directory after the "-d" flag where the .class files will be placed. I want to keep the .class files in the current directory, so I simply remove the "-d" flag. I was originally planning to use "-d" flag to make sure it is placed in the correct directory but I forgot to implement that correctly.
 
@@ -125,6 +125,8 @@ java -cp $CPATH org.junit.runner.JUnitCore TestListExamples > output.txt
 echo 'Finished grading'
 tail -n 3 output.txt
 ```
+Here's the final directory structure:
+<img width="675" alt="截屏2023-05-31 21 10 41" src="https://github.com/kevinnie2003/cse15l_lab5/assets/122497019/a0ad19ce-532c-44c7-96ff-26ab82aa107c">
 
 # Part 2: Reflection
 
