@@ -126,6 +126,7 @@ echo 'Finished grading'
 tail -n 3 output.txt
 ```
 Here's the final directory structure:
+
 <img width="675" alt="截屏2023-05-31 21 10 41" src="https://github.com/kevinnie2003/cse15l_lab5/assets/122497019/a0ad19ce-532c-44c7-96ff-26ab82aa107c">
 
 # Part 2: Reflection
