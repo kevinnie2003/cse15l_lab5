@@ -1,5 +1,8 @@
 # Part 1 – Debugging Scenario
 
+_Original Post:_
+## How do I fix this bug?
+
 
 # Part 2: Reflection
 
